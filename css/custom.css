@@ -1,0 +1,399 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2016, 8:37:45 PM
+    Author     : MUSTAFA
+*/
+
+body{
+    overflow-x: hidden;
+}
+#social-links{
+    list-style: none;
+}
+#social-links li{
+    float: left;
+}
+.navbar{
+    margin-bottom: 0px !important;
+    border-radius: 0px; 
+}
+.navbar-default{
+    background-color: #E21D26;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a ,.navbar-default li a{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 15px;
+    font-family: Arial;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #E21D26;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #E21D26 !important;
+    background-color: #fff !important;
+}
+.navbar-default li a:hover{
+    color: #E21D26;
+    background-color: #fff;
+}
+
+.glyphicon-home,.glyphicon-pencil{
+    margin-right: 6px;
+}
+/*.affix{
+    top: 0;
+    width: 100%;
+}
+.affix + .container-fluid {
+      padding-top: 70px;
+  }*/
+#banner{
+    margin-top: 50px;
+    background: url('../images/slide-2.png') top center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+#description{
+  margin-top: 20px;
+  max-width: 60rem;
+  background: rgba(0,0,0,0.8);
+  padding: 2rem;
+  color: white;
+}
+#description p {
+    color: white;
+    text-shadow: 0 0 10px rgba(255,255,255,0.6);
+}
+.btn-info{
+    background-color: #E21D26;
+    color: #fff;
+    border-radius: 0px;
+    border:1px solid #F34C54;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 600;
+   text-transform: uppercase;
+}
+.btn-info:hover{
+    background-color: #F34C54;
+    border-color: #F34C54;
+}
+/*For smaller Resolutions*/
+@media screen and (max-width:468px){
+    h1{
+        font-size: 24px;
+    }
+    #vacancies-wrapper{
+        margin-top: 30px;
+    }
+    #banner{
+        margin-bottom: 30px;
+    }
+    .btn-info{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .jumbotron p{
+        font-size: 12px !important;
+    }
+    .btn-goto-info-page{
+        margin-top: 5px;
+    }
+    .apply-LNA{
+        padding-top:5px;
+    padding-bottom: 3px;
+    }
+}
+@media screen and (max-width:992px){
+    
+    .btn-goto-info-page{
+        margin-bottom: 5px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        padding: 10px;
+        font-size: 14px;
+    }
+    #banner{
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width:992px){
+    .navbar-default .navbar-nav>li>a ,.navbar-default li a{
+    color: #fff !important;
+    font-size: 14px;
+    padding: 10px;
+} 
+}
+@media screen and (max-width:768px){
+   .navbar-default .navbar-nav>li>a ,.navbar-default li a{
+    color: #fff !important;
+    font-size: 14px;
+    padding: 5px;
+} 
+}
+/*Navabar at smaller Resolution*/
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #E21D26 !important;
+    background-color: #fff;
+}
+/*Custom jumbotron*/
+
+.custom-jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url('../img/slide-2.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.custom-jumbotron-heading {
+  font-weight: 600;
+  font-family: Arial;
+}
+
+ .custom-jumbotron .container {
+  max-width: 60rem;
+  background: rgba(0,0,0,0.6);
+  padding: 2rem;
+  color: white;
+}
+
+.jumbotron p {
+    color: white;
+    font-family: Arial;
+    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+hr{
+    border-color: #ccc !important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#section-vacancies-links{
+    overflow-x: hidden;
+}
+#vacancies-wrapper{
+   margin-bottom: 30px;
+  
+}
+#vacancies-heading{
+    color: #fff;
+}
+.panel-default>.panel-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#maps-area{
+    margin-top: 20px;
+}
+.collapsable-heading{
+    background-color: #E21D26 !important;
+    color: #fff !important;
+    font-family: Arial;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 0px !important;
+    border: 1px solid #E21D26;
+}
+.apply-LNA{
+    background-color: #E21D26;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Arial;
+    border:1px solid #fff;
+    margin-bottom: 5px;
+}
+.apply-LNA:hover{
+    color: #fff;
+}
+#apply-now-wrapper{
+    font-size: 16px;
+    font-family: Arial;
+   
+}
+#apply-now-panel{
+   max-height: 480px;
+}
+.btn-apply-now{
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 15px;
+    background-color: #E21D26;
+}
+.btn-apply-now:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#london-vacancies-map{
+    min-height: 480px;
+    max-width: 100%;
+}
+#contact-us-map{
+     min-height: 400px;
+    max-width: 100%;
+}
+.panel-heading{
+   /* background-color: rgb(77,106,121) !important;*/
+  background-color: #E21D26 !important;
+    color: #fff !important;
+}
+.panel{
+    border: 1px solid #E21D26 !important;
+}
+.collapsable-area{
+    max-height: 480px;
+    overflow-y: scroll;
+}
+
+#motos-pngs{
+    margin-bottom: 20px;
+    margin-top: 50px;
+     overflow-x: hidden;
+}
+#motos-pngs img{
+    max-width: 100%;
+}
+
+/*#bg-footer{
+    background: url('../images/bg-footer.png') center center no-repeat;
+    background-size: cover;
+    height: 100px;
+    overflow-x: hidden;
+    margin-top: 50px;
+}*/
+#footer-text{
+    font-family: Arial;
+    background-color: #E21D26;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#footer-text a{
+    font-family: Arial;
+    background-color: #E21D26;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+#footer-text a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-heading{
+    font-family: Arial;
+    font-weight: 600;
+}
+.sub-heading{
+    font-family: Arial;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 22px;
+}
+/*Contact Us page*/
+
+#contact-us-banner{
+    
+    margin-top: 50px;
+    background: url('../images/slide-3.png') top center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+#descript{
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+}
+.fa{
+    top: 6px !important;
+    color: #E21D26 !important;
+}
+.form-control{
+    border-radius: 0px !important;
+    border-color: #E21D26;
+}
+.btn-send-feedback{
+    padding: 5px 15px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background-color: #E21D26;
+    color: #fff;
+    border: 1px solid #E21D26;
+}
+#map-lg{
+    min-height: 450px;
+    width: 100%;
+}
+/*For staff Page*/
+#staff-section{
+    margin-top: 30px;
+}
+#staff-banner{
+    margin-top: 50px;
+    background: url('../images/slide-1.png') top center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+/*Case studies Page*/
+#case-studies-banner{
+    margin-top: 50px;
+    background: url('../images/meeting.jpg') top center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+/*Career Page*/
+#career-banner{
+    margin-top: 50px;
+    background: url('../images/bg-career.jpg') center center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+.career-lists{
+    list-style: square;
+}
+.lead{
+    font-family: Arial !important;
+}
+/*Employees Information*/
+#employees-banner{
+    margin-top: 50px;
+    background: url('../images/bg-employees.png') top center no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
