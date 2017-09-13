@@ -14,12 +14,10 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="images/asa-logo.jpg" type="image/gif" sizes="16x16">
-        <script src="js/jquery-1.11.1.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/jquery.accordion.js"></script>
+        
     </head>
     <body>
-
+        <div id="loader"><div id="back"></div></div>
         <nav class="nav navbar-default navbar-fixed-top" role="navigation" id="header_nav">
             <div class="col-md-12">
                 <div class="container-fluid">

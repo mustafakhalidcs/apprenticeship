@@ -5,6 +5,10 @@
     </div>
     <!--           <div id="bg-footer"></div>-->
 </section>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.accordion.js"></script>
+<script src="js/basicpreloader.js"></script>
 <script type="text/javascript">
 $(function() {
     $('.example1').accordion({
